@@ -1,0 +1,18 @@
+{
+  "status": "error",
+  "config_path": "C:\\Users\\eos\\Desktop\\101\\AutoCYPAmber-main\\examples\\local_smoke_case\\outputs\\case_config.json",
+  "case_name": "cyp450_local_smoke",
+  "output_root": "C:\\Users\\eos\\Desktop\\101\\AutoCYPAmber-main\\examples\\local_smoke_case\\outputs",
+  "stage_dirs": {
+    "prep_heme": "C:\\Users\\eos\\Desktop\\101\\AutoCYPAmber-main\\examples\\local_smoke_case\\outputs\\prep_heme",
+    "prep_lig": "C:\\Users\\eos\\Desktop\\101\\AutoCYPAmber-main\\examples\\local_smoke_case\\outputs\\prep_lig",
+    "complex": "C:\\Users\\eos\\Desktop\\101\\AutoCYPAmber-main\\examples\\local_smoke_case\\outputs\\complex",
+    "md_run": "C:\\Users\\eos\\Desktop\\101\\AutoCYPAmber-main\\examples\\local_smoke_case\\outputs\\md_run",
+    "analysis": "C:\\Users\\eos\\Desktop\\101\\AutoCYPAmber-main\\examples\\local_smoke_case\\outputs\\analysis",
+    "report": "C:\\Users\\eos\\Desktop\\101\\AutoCYPAmber-main\\examples\\local_smoke_case\\outputs\\report"
+  },
+  "missing": [
+    "protein_pdb -> C:\\Users\\eos\\Desktop\\101\\AutoCYPAmber-main\\examples\\local_smoke_case\\inputs\\protein.pdb",
+    "ligand_path -> C:\\Users\\eos\\Desktop\\101\\AutoCYPAmber-main\\examples\\local_smoke_case\\inputs\\ligand.sdf"
+  ]
+}

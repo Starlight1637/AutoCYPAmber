@@ -1,0 +1,6 @@
+parm /mnt/c/Users/eos/Desktop/101/AutoCYPAmber-main
+trajin /mnt/c/Users/eos/Desktop/101/AutoCYPAmber-main
+autoimage
+surf :HEM out /mnt/c/Users/eos/Desktop/101/AutoCYPAmber-main/examples/local_smoke_case/outputs/analysis/heme_sasa.dat
+run
+quit

@@ -1,0 +1,6 @@
+parm /mnt/c/Users/eos/Desktop/101/AutoCYPAmber-main
+trajin /mnt/c/Users/eos/Desktop/101/AutoCYPAmber-main
+autoimage
+rms heme_rmsd :HEM first out /mnt/c/Users/eos/Desktop/101/AutoCYPAmber-main/examples/local_smoke_case/outputs/analysis/heme_rmsd.dat
+run
+quit

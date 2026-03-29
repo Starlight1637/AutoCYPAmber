@@ -1,0 +1,47 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Output and simulation files
+md_output/
+prep_*/
+md_input/
+complex/
+*.nc
+*.rst7
+*.prmtop
+*.inpcrd
+*.out
+*.log
+*.molden
+*.chg
+*.xyz
+*.frcmod
+*.mol2
+*.pdb
+*.dat

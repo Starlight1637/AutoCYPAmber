@@ -1,0 +1,6 @@
+parm /mnt/c/Users/eos/Desktop/101/AutoCYPAmber-main
+trajin /mnt/c/Users/eos/Desktop/101/AutoCYPAmber-main
+autoimage
+radgyr !(:WAT,Na+,Cl-,HEM,LIG)&@CA out /mnt/c/Users/eos/Desktop/101/AutoCYPAmber-main/examples/local_smoke_case/outputs/analysis/rg.dat
+run
+quit

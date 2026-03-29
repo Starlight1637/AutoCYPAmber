@@ -1,0 +1,6 @@
+parm /mnt/c/Users/eos/Desktop/101/AutoCYPAmber-main
+trajin /mnt/c/Users/eos/Desktop/101/AutoCYPAmber-main
+autoimage
+distance fe_substrate :HEM@FE :LIG@C1 out /mnt/c/Users/eos/Desktop/101/AutoCYPAmber-main/examples/local_smoke_case/outputs/analysis/fe_substrate_distance.dat
+run
+quit

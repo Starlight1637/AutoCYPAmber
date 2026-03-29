@@ -1,0 +1,64 @@
+{
+  "case_name": "cyp450_local_smoke",
+  "mode": "local-smoke",
+  "protein_pdb": "C:\\Users\\eos\\Desktop\\101\\AutoCYPAmber-main\\examples\\local_smoke_case\\inputs\\protein.pdb",
+  "ligand_path": "C:\\Users\\eos\\Desktop\\101\\AutoCYPAmber-main\\examples\\local_smoke_case\\inputs\\ligand.sdf",
+  "axial_cys_resid": 357,
+  "heme": {
+    "resname": "HEM",
+    "state": null
+  },
+  "ligand": {
+    "charge": 0,
+    "spin": 1,
+    "res_name": "LIG"
+  },
+  "paths": {
+    "output_root": "C:\\Users\\eos\\Desktop\\101\\AutoCYPAmber-main\\examples\\local_smoke_case\\outputs"
+  },
+  "md": {
+    "engine": "pmemd.cuda",
+    "profile": "local_smoke",
+    "min_maxcyc": 500,
+    "min_ncyc": 250,
+    "heat_nstlim": 2500,
+    "equil_nstlim": 2500,
+    "prod_nstlim": 5000
+  },
+  "analysis": {
+    "protein_mask": "!(:WAT,Na+,Cl-,HEM,LIG)&@CA",
+    "heme_mask": ":HEM",
+    "cys_s_mask": ":357@SG",
+    "fe_atom_mask": ":HEM@FE",
+    "fe_o_mask": "",
+    "substrate_reactive_atom_mask": ":LIG@C1",
+    "ligand_mask": ":LIG",
+    "hbond_mask": ":HEM,LIG",
+    "hbond_donor_mask": "",
+    "hbond_acceptor_mask": "",
+    "hbond_include_solvent": false,
+    "hbond_solvent_donor_mask": ":WAT@O",
+    "hbond_solvent_acceptor_mask": ":WAT",
+    "key_residue_masks": {},
+    "distance_pairs": {
+      "Thr252_to_Fe": {
+        "mask1": ":252@OG1",
+        "mask2": ":HEM@FE"
+      },
+      "Thr252_to_substrate": {
+        "mask1": ":252@OG1",
+        "mask2": ":LIG@C1"
+      },
+      "Gly248_to_substrate": {
+        "mask1": ":248@O",
+        "mask2": ":LIG@C1"
+      }
+    },
+    "run_mmpbsa": false,
+    "mmpbsa_complex_topology": "",
+    "mmpbsa_receptor_topology": "",
+    "mmpbsa_ligand_topology": "",
+    "mmpbsa_input": ""
+  },
+  "config_path": "C:\\Users\\eos\\Desktop\\101\\AutoCYPAmber-main\\examples\\local_smoke_case\\case_config.json"
+}
